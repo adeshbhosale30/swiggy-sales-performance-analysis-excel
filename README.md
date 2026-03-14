@@ -125,7 +125,6 @@ Interactive filters:
 ## Dashboard Preview
 
 ![Swiggy Dashboard](images/dashboard.png)
-
 ---
 
 # Key Insights
