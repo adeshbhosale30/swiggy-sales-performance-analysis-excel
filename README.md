@@ -5,7 +5,6 @@ Analyzing Swiggy food delivery sales data to identify revenue drivers, customer 
 ---
 
 # 📌 Table of Contents
-
 - [Overview](#overview)
 - [Business Problem](#business-problem)
 - [Tools & Technologies](#tools--technologies)
@@ -17,29 +16,27 @@ Analyzing Swiggy food delivery sales data to identify revenue drivers, customer 
 - [How to Use This Project](#how-to-use-this-project)
 - [Final Recommendations](#final-recommendations)
 - [Author](#author)
+
 ---
 
 # Overview
 
-This project analyzes Swiggy food delivery sales data to identify key business insights and performance trends.
+This project analyzes Swiggy food delivery sales data to uncover trends in revenue, customer demand, and operational performance.
 
-An interactive Excel dashboard was built to monitor important business metrics such as total sales, order volume, average order value, city performance, category contribution, and sales trends.
-
-The objective of this project is to demonstrate how data analytics can support strategic decision-making in the food delivery industry.
+An interactive Excel dashboard was developed to monitor key metrics including sales performance, order volume, customer ratings, and category performance.
 
 ---
 
 # Business Problem
 
-Food delivery companies must analyze operational and sales data to improve customer experience and maximize revenue.
+Food delivery platforms must analyze large volumes of transactional data to optimize operations and increase revenue.
 
-This project aims to answer key business questions:
+This project answers key questions:
 
-• Which cities generate the highest revenue?  
-• What is the average order value across cities?  
-• Which food categories contribute the most to sales?  
-• How does sales demand change across days and weeks?  
-• What insights can improve business growth and operational efficiency?
+• Which cities generate the highest sales revenue  
+• What is the average order value across cities  
+• Which food categories contribute the most to total sales  
+• How demand varies across days and weeks  
 
 ---
 
@@ -63,15 +60,11 @@ These attributes allow analysis across location, time, and product categories.
 
 # Tools & Technologies
 
-This project was built using:
-
 • Microsoft Excel  
 • Pivot Tables  
 • Excel Charts  
 • Excel Slicers  
 • Dashboard Design  
-
-Excel was used for data cleaning, aggregation, analysis, and visualization.
 
 ---
 
@@ -93,38 +86,35 @@ swiggy-sales-performance-analysis-excel
     └── dashboard.png
 ```
 
-
-
 ---
 
 # Data Cleaning & Preparation
 
-Before building the dashboard, the dataset was prepared and structured in Excel.
+The dataset was prepared using Excel before building the dashboard.
 
-Data preparation steps included:
+Steps included:
 
 • Handling missing values  
-• Standardizing category and city names  
+• Standardizing city and category names  
 • Removing inconsistent records  
-• Creating pivot tables for aggregated analysis  
-• Creating calculated metrics for sales and orders  
-
-These steps ensured the dataset was accurate and suitable for analysis.
+• Creating pivot tables for aggregated metrics  
+• Calculating KPIs such as total sales and average order value  
 
 ---
 
 # Dashboard
 
-The Excel dashboard provides a high-level overview of Swiggy's sales performance.
+The dashboard provides an executive-level overview of Swiggy sales performance.
 
-Key KPIs included in the dashboard:
+Key KPIs:
 
 Total Sales → ₹53.01M  
 Total Orders → 197.43K  
 Average Order Value → ₹268.51  
 Average Rating → 4.34  
+Rating Count → 5.59K  
 
-The dashboard also includes interactive filters for:
+Interactive filters:
 
 • Month  
 • City  
@@ -140,64 +130,52 @@ The dashboard also includes interactive filters for:
 
 # Key Insights
 
-1. **Bengaluru generates the highest sales revenue among all cities.**
-
-2. **Recommended food items contribute the largest share of total sales.**
-
-3. **Weekend demand is significantly higher compared to weekdays.**
-
-4. **Cities such as Panaji and Lucknow show higher average order values.**
-
-5. **Sales trends remain stable across most weeks, indicating consistent demand.**
+1. Bengaluru generates the highest sales revenue among analyzed cities.
+2. Recommended food items contribute the largest share of sales.
+3. Weekend demand is significantly higher compared to weekdays.
+4. Panaji and Lucknow have the highest average order values.
+5. Sales trends remain stable across most weeks.
 
 ---
 
 # Business Impact
 
-The insights from this analysis can help Swiggy improve business performance by:
+The insights from this dashboard can help businesses:
 
-• Expanding restaurant partnerships in high-performing cities  
-• Promoting high-margin food items through recommendation algorithms  
-• Optimizing delivery operations during peak demand periods  
-• Running targeted promotions in high-spending cities  
+• Identify high-revenue cities for expansion  
+• Promote high-margin food categories  
+• Optimize delivery operations during peak demand  
+• Improve marketing strategies based on customer spending patterns  
 
 ---
 
 # How to Use This Project
 
-1. Download the Excel dashboard file:
-
-2. Open the file in Microsoft Excel.
-
-3. Use the slicers to filter data by:
-
-• Month  
-• City  
-• Restaurant  
-
-4. Explore the dashboard to analyze sales performance.
+1. Download the Excel dashboard file.
+2. Open it in Microsoft Excel.
+3. Use slicers to filter data by:
+   • Month  
+   • City  
+   • Restaurant  
+4. Explore the dashboard to analyze performance.
 
 ---
 
 # Final Recommendations
 
-Based on the analysis, the following strategies can improve business performance:
-
-• Strengthen restaurant partnerships in high-demand cities  
-• Promote high-margin food items through recommendation systems  
-• Introduce combo meal offers to increase average order value  
-• Optimize delivery resources during peak demand periods  
-
-These strategies can help increase revenue while improving customer experience.
+• Expand restaurant partnerships in high-demand cities  
+• Promote high-margin menu items  
+• Introduce combo offers to increase order value  
+• Optimize delivery operations during peak periods  
 
 ---
 
 # Author
 
 **Adesh Bhosale**  
-Aspiring Data Analyst  
+Aspiring Data Analyst
 
-🔗 LinkedIn  
+LinkedIn  
 https://www.linkedin.com/in/adeshbhosale/
 
-💻 GitHub Portfolio
+GitHub Portfolio
