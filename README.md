@@ -4,9 +4,11 @@ Analyzing Swiggy food delivery sales data to identify revenue drivers, customer 
 
 ---
 
-# 📌 Table of Contents
+## 📌 Table of Contents
+
 - [Overview](#overview)
 - [Business Problem](#business-problem)
+- [Dataset](#dataset)
 - [Tools & Technologies](#tools--technologies)
 - [Project Structure](#project-structure)
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
@@ -19,7 +21,7 @@ Analyzing Swiggy food delivery sales data to identify revenue drivers, customer 
 
 ---
 
-# Overview
+## Overview
 
 This project analyzes Swiggy food delivery sales data to uncover trends in revenue, customer demand, and operational performance.
 
@@ -27,7 +29,7 @@ An interactive Excel dashboard was developed to monitor key metrics including sa
 
 ---
 
-# Business Problem
+## Business Problem
 
 Food delivery platforms must analyze large volumes of transactional data to optimize operations and increase revenue.
 
@@ -40,7 +42,7 @@ This project answers key questions:
 
 ---
 
-# Dataset
+## Dataset
 
 The dataset contains transactional order data from Swiggy restaurants.
 
@@ -58,7 +60,7 @@ These attributes allow analysis across location, time, and product categories.
 
 ---
 
-# Tools & Technologies
+## Tools & Technologies
 
 • Microsoft Excel  
 • Pivot Tables  
@@ -68,27 +70,28 @@ These attributes allow analysis across location, time, and product categories.
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```
 swiggy-sales-performance-analysis-excel
 │
 ├── README.md
-├── Swiggy Sales Analysis Report.pdf
+├── Report
+│   └── Swiggy Sales Analysis Report.pdf
 │
-├── dataset
-│   └── swiggy_raw_dataset.xlsx
+├── Data set
+│   └── Swiggy Raw Data Excel.xlsx
 │
-├── dashboard
-│   └── swiggy_sales_dashboard.xlsx
+├── Dashboard
+│   └── Swiggy Sales Dashboard.xlsx
 │
-└── images
+└── Images
     └── dashboard.png
 ```
 
 ---
 
-# Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 The dataset was prepared using Excel before building the dashboard.
 
@@ -102,11 +105,11 @@ Steps included:
 
 ---
 
-# Dashboard
+## Dashboard
 
 The dashboard provides an executive-level overview of Swiggy sales performance.
 
-Key KPIs:
+### Key KPIs
 
 Total Sales → ₹53.01M  
 Total Orders → 197.43K  
@@ -114,7 +117,7 @@ Average Order Value → ₹268.51
 Average Rating → 4.34  
 Rating Count → 5.59K  
 
-Interactive filters:
+### Interactive Filters
 
 • Month  
 • City  
@@ -128,7 +131,7 @@ Interactive filters:
 
 ---
 
-# Key Insights
+## Key Insights
 
 1. Bengaluru generates the highest sales revenue among analyzed cities.
 2. Recommended food items contribute the largest share of sales.
@@ -138,7 +141,7 @@ Interactive filters:
 
 ---
 
-# Business Impact
+## Business Impact
 
 The insights from this dashboard can help businesses:
 
@@ -149,19 +152,19 @@ The insights from this dashboard can help businesses:
 
 ---
 
-# How to Use This Project
+## How to Use This Project
 
 1. Download the Excel dashboard file.
 2. Open it in Microsoft Excel.
 3. Use slicers to filter data by:
-   • Month  
-   • City  
-   • Restaurant  
+   - Month
+   - City
+   - Restaurant
 4. Explore the dashboard to analyze performance.
 
 ---
 
-# Final Recommendations
+## Final Recommendations
 
 • Expand restaurant partnerships in high-demand cities  
 • Promote high-margin menu items  
@@ -170,12 +173,10 @@ The insights from this dashboard can help businesses:
 
 ---
 
-# Author
+## Author
 
 **Adesh Bhosale**  
 Aspiring Data Analyst
 
 LinkedIn  
 https://www.linkedin.com/in/adeshbhosale/
-
-GitHub Portfolio
